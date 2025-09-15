@@ -1,0 +1,22 @@
+
+spring.application.name=meditrack
+
+
+spring.main.allow-circular-references=true
+
+server.port = 8080
+
+
+spring.datasource.url=jdbc:oracle:thin:@din04db.gwl.com:1521/din04web2.isis.gwl.com
+spring.datasource.username=sys as sysdba
+spring.datasource.password= Kethan@3
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+
+spring.jpa.database-platform=org.hibernate.dialect.OracleDialect
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+
+spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+springdoc.api-docs.enabled=true
+springdoc.swagger-ui.enabled=true

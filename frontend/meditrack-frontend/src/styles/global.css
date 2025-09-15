@@ -1,0 +1,58 @@
+
+:root {
+  --primary-blue-light: #b4dbf6;
+  --primary-blue-medium: #2196f3;
+  --primary-blue-dark: #0d47a1;
+  --neutral-white: #ffffff;
+}
+
+* {
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    font-weight: bold;
+  padding: 0;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: var(--primary-blue-light);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 20px 0;
+  background-color: var(--neutral-white);
+}
+
+button {
+  border-radius: 8px !important;
+  background-color: var(--primary-blue-medium);
+  color: var(--neutral-white);
+}
+
+button:hover {
+  background-color: var(--primary-blue-dark);
+}
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
